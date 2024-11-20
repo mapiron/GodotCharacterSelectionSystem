@@ -7,7 +7,6 @@ var selected_character_scene: String = ""  # 選択されたキャラクター�
 @onready var start_button = $UI/StartButton
 
 
-
 func _ready():
 	# ボタンのシグナルをメソッドに接続
 	$UI/Button1.connect("pressed", Callable(self, "_on_button1_pressed"))
